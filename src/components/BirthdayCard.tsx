@@ -5,7 +5,7 @@ import RandomImages from './RandomImages'
 
 const BirthdayCard = () => {
   return (
-    <div className="relative w-full max-w-8xl aspect-video overflow-hidden">
+    <div className="relative w-full max-w-20xl aspect-video overflow-hidden">
       <ConfettiEffect />
       <CursorImageEffect />
       <RandomImages />
