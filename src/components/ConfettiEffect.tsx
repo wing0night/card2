@@ -1,14 +1,10 @@
 'use client'
 
-import { useEffect } from 'react'
+import { useEffect, useCallback } from 'react' // Import useCallback
 import confetti from 'canvas-confetti'
 
 const ConfettiEffect = () => {
-  useEffect(() => {
-    triggerInitialConfetti()
-  }, [])
-
-  const triggerInitialConfetti = () => {
+  const triggerInitialConfetti = useCallback(() => { // Use useCallback
     const duration = 15 * 1000
     const animationEnd = Date.now() + duration
     const defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 0 }
@@ -33,7 +29,11 @@ const ConfettiEffect = () => {
         colors: ['#ff00ff', '#ffff00', '#00ffff'],
       }))
     }, 250)
-  }
+  }, []) // Add dependencies if needed
+
+  useEffect(() => {
+    triggerInitialConfetti()
+  }, [triggerInitialConfetti]) // Include triggerInitialConfetti in the dependency array
 
   const randomInRange = (min: number, max: number) => {
     return Math.random() * (max - min) + min
@@ -43,4 +43,3 @@ const ConfettiEffect = () => {
 }
 
 export default ConfettiEffect
-
