@@ -1,17 +1,22 @@
-import React from 'react';
+import './globals.css'
+import type { Metadata } from 'next'
+import { Inter } from 'next/font/google'
 
-const Layout = ({ children }: { children: React.ReactNode }) => {
+const inter = Inter({ subsets: ['latin'] })
+
+export const metadata: Metadata = {
+  title: 'Happy Birthday',
+  description: 'A special birthday greeting',
+}
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
   return (
-    <div>
-      <header>
-        <h1>My Website</h1>
-      </header>
-      <main>{children}</main>
-      <footer>
-        <p>© 2023 My Website</p>
-      </footer>
-    </div>
-  );
-};
-
-export default Layout;
+    <html lang="en" className="h-full">
+      <body className={`${inter.className} h-full`}>{children}</body>
+    </html>
+  )
+}
