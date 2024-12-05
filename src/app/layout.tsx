@@ -1,34 +1,17 @@
-import './globals.css'
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import React from 'react';
 
-const inter = Inter({ subsets: ['latin'] })
-
-export const metadata: Metadata = {
-  title: 'Happy Birthday',
-  description: 'A special birthday greeting',
-}
-
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <html lang="en" className="h-full">
-      <body className={`${inter.className} h-full`}>{children}</body>
-    </html>
-  )
-}
+    <div>
+      <header>
+        <h1>My Website</h1>
+      </header>
+      <main>{children}</main>
+      <footer>
+        <p>© 2023 My Website</p>
+      </footer>
+    </div>
+  );
+};
 
-export const images = {
-  remotePatterns: [
-    {
-      protocol: 'https',
-      hostname: 'hebbkx1anhila5yf.public.blob.vercel-storage.com',
-      port: '',
-      pathname: '/**',
-    },
-  ],
-}
-
+export default Layout;
