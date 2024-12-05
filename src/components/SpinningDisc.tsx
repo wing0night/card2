@@ -9,7 +9,7 @@ const SpinningDisc: React.FC<SpinningDiscProps> = ({ isPlaying }) => {
   return (
     <div className={`relative w-64 h-64 rounded-full overflow-hidden ${isPlaying ? 'animate-spin' : ''}`}> {/* Added 'animate-spin' for rotation */}
       <Image
-        src="/images/circle.png"
+        src="https://raw.githubusercontent.com/wing0night/card2/refs/heads/main/public/images/circle.png"
         alt="Vinyl record"
         layout="fill"
         objectFit="cover"

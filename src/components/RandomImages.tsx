@@ -3,12 +3,12 @@ import { useMemo } from 'react'
 
 
 const imageUrls = [
-  '/images/cake.png',
-  '/images/cake.png',
-  '/images/cake.png',
-  '/images/gift.png',
-  '/images/gift.png',
-  '/images/gift.png',
+  'https://raw.githubusercontent.com/wing0night/card2/refs/heads/main/public/images/cake.png',
+  'https://raw.githubusercontent.com/wing0night/card2/refs/heads/main/public/images/cake.png',
+  'https://raw.githubusercontent.com/wing0night/card2/refs/heads/main/public/images/cake.png',
+  'https://raw.githubusercontent.com/wing0night/card2/refs/heads/main/public/images/gift.png',
+  'https://raw.githubusercontent.com/wing0night/card2/refs/heads/main/public/images/gift.png',
+  'https://raw.githubusercontent.com/wing0night/card2/refs/heads/main/public/images/gift.png',
 ]
 
 const RandomImages = () => {

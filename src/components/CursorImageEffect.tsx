@@ -44,7 +44,7 @@ const CursorImageEffect = () => {
           }}
         >
           <Image
-            src="/images/537.png"
+            src="https://raw.githubusercontent.com/wing0night/card2/refs/heads/main/public/images/537.png"
             alt="Cute Rabbit"
             width={50}
             height={50}
