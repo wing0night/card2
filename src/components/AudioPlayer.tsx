@@ -59,7 +59,7 @@ const AudioPlayer = () => {
       <div className="relative z-10 w-full bg-gray-800 text-white p-4 rounded-lg mt-4">
         <audio
           ref={audioRef}
-          src="https://gitee.com/zju_5_0/component_load/raw/master/audio/birthday.MP3" // 更新为您的 GitHub Pages URL
+          src="https://github.com/wing0night/card2/raw/refs/heads/main/public/mp3/birthday.MP3" // 更新为您的 GitHub Pages URL
           onEnded={() => setIsPlaying(false)}
         />
         <div className="flex items-center justify-between mb-4">
