@@ -16,6 +16,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="h-full">
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        {/* 其他头部内容，例如字体链接、样式表等 */}
+      </head>
       <body className={`${inter.className} h-full`}>{children}</body>
     </html>
   )
