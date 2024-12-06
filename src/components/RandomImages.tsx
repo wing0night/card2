@@ -8,7 +8,7 @@ const imageUrls = [
   'https://raw.githubusercontent.com/wing0night/card2/refs/heads/main/public/images/cake.png',
   'https://raw.githubusercontent.com/wing0night/card2/refs/heads/main/public/images/gift.png',
   'https://raw.githubusercontent.com/wing0night/card2/refs/heads/main/public/images/gift.png',
-  'https://raw.githubusercontent.com/wing0night/card2/refs/heads/main/public/images/gift.png',
+  'https://raw.githubusercontent.com/wing0night/card2/refs/heads/main/public/images/cake.png',
 ]
 
 const RandomImages = () => {
