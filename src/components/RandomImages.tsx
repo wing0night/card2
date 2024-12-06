@@ -3,12 +3,12 @@ import { useMemo } from 'react'
 
 
 const imageUrls = [
-  'https://raw.githubusercontent.com/wing0night/card2/refs/heads/main/public/images/cake.png',
-  'https://raw.githubusercontent.com/wing0night/card2/refs/heads/main/public/images/cake.png',
-  'https://raw.githubusercontent.com/wing0night/card2/refs/heads/main/public/images/cake.png',
-  'https://raw.githubusercontent.com/wing0night/card2/refs/heads/main/public/images/gift.png',
-  'https://raw.githubusercontent.com/wing0night/card2/refs/heads/main/public/images/gift.png',
-  'https://raw.githubusercontent.com/wing0night/card2/refs/heads/main/public/images/cake.png',
+  'https://img.xiumi.us/xmi/ua/38BxR/i/02a49d1d6b4567879c92ec3e400167b0-sz_6782.png?x-oss-process=style/xmwebp',
+  'https://img.xiumi.us/xmi/ua/38BxR/i/02a49d1d6b4567879c92ec3e400167b0-sz_6782.png?x-oss-process=style/xmwebp',
+  'https://img.xiumi.us/xmi/ua/38BxR/i/02a49d1d6b4567879c92ec3e400167b0-sz_6782.png?x-oss-process=style/xmwebp',
+  'https://img.xiumi.us/xmi/ua/38BxR/i/d075cb47b60c7e26b1fdf3cd2aaae7c9-sz_881844.png?x-oss-process=style/xmwebp',
+  'https://img.xiumi.us/xmi/ua/38BxR/i/d075cb47b60c7e26b1fdf3cd2aaae7c9-sz_881844.png?x-oss-process=style/xmwebp',
+  'https://img.xiumi.us/xmi/ua/38BxR/i/d075cb47b60c7e26b1fdf3cd2aaae7c9-sz_881844.png?x-oss-process=style/xmwebp',
 ]
 
 const RandomImages = () => {

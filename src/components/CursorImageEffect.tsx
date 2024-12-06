@@ -44,7 +44,7 @@ const CursorImageEffect = () => {
           }}
         >
           <Image
-            src="https://raw.githubusercontent.com/wing0night/card2/refs/heads/main/public/images/537.png"
+            src="https://img.xiumi.us/xmi/ua/38BxR/i/a0c759089d5b2c1c6d1ddf3df9d7e523-sz_55905.png?x-oss-process=style/xmwebp"
             alt="Cute Rabbit"
             width={50}
             height={50}
